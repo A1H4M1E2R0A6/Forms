@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form>
+    
+            <h1 style="color: rgb(0, 0, 0);">HOSTEL ADMISSION REGISTRATION FORM</FORM> </h1>
+        
+            <fieldset>
+                <legend style="color: rgb(9, 9, 172);">
+                    <h2> Personal Information </h2>
+                </legend>
+                <p>
+                    <label for="firstname">First Name:</label>
+                    <input required type="text" id="firstname" name="firstname" size="10" maxlength="30" />
+                    &nbsp; <label for="Lastname">Last Name:</label>
+                    <input required type="text" id="Lastname" name="Lastname" size="10" maxlength="30" />
+                </p>
+                <p>
+                    <label for="email">Email:</label>
+                    <input required type="text" id="email" name="email" size="20" maxlength="30" />
+                </p>
+                <p>
+                    Gender:
+                    <br />
+
+                    <input type="radio" name="gender" value="male" checked="checked" />
+                    <label for="male">Male</label>
+
+                    <input type="radio" name="gender" value="female" /><label for="Female"> Female</label>
+                </p>
+
+                <p>
+                    <label for="Contact">Contact:</label>
+                    <input required type="Contact" id="Contact" name="Contact" size="12" maxlength="14" />
+                </p>
+
+                <p>
+                    <label for="emergency contact">Emergency Contact:</label>
+                    <input required type="emergency contact" id="emergency contact" name="emergency contact" size="12"
+                        maxlength="14" />
+                </p>
+            </fieldset>
+            <fieldset>
+                <legend style="color: rgb(9, 9, 172);">
+                    <h2> Other Activities</h2>
+                </legend>
+                <p>
+                    Do you require parking:
+                    <br />
+                    <input type="radio" name="parking" value="Yes" checked="checked" /><label for="yes"> Yes</label>
+                    <input type="radio" name="parking" value="No" /> <label for="no">No</label>
+                </p>
+                <p>What is your preference?</p>
+                <input type="checkbox" id="Single Room" name="preference" value="Single Room" checked="checked" />
+                <label for="Single Room"> Single Room </label>
+                <input type="checkbox" id="Shared Room" name="preference" value="Shared Room" />
+                <label for="Shared Room"> Shared Room</label>
+                <input type="checkbox" id="Double Room" name="preference" value="Double Room" /><label
+                    for="Double Room"> Double Room</label>
+                <input type="checkbox" id="No Room Need" name="preference" value="No Room Need" /> <label
+                    for="No Room Need"> No Room Need</label>
+                </p>
+                <p> Do you have Dietary restrictions? </p>Room
+                <select name="restrictions">
+                    <option value="None">None</option>
+                    <option value="Vegetarian">Vegetarian</option>
+                    <option value="Glutten Allergy">Glutten Allergy</option>
+                    <option value="Lactose Allergy">Lactose Allergy</option>
+                    <option value="Nut Allergy">Nut Allergy</option>
+                    <option value="Shelfish Allergy">Shelfish Allergy</option>
+                </select>
+                <p>
+                    What activities will you attend?
+                </p>
+                <input type="radio" id="Awards Gala Dinner" name="activities" value="Awards Gala Dinner"
+                    checked="checked" /> Awards Gala Dinner
+                <input type="radio" id="Town Hall" name="activities" value="Town Hall" /> Town Hall
+                <input type="radio" id="Luncheon" name="activities" value="Luncheon" /> Luncheon
+                <p>
+                    Do you want to play any Sports in given:
+
+                </p>
+                <input type="radio" id="Cricket" name="Sports" value="Cricket" /> Cricket
+                <input type="radio" id="Basket Ball" name="Sports" value="Basket Ball" /> Basket Ball
+                <input type="radio" id="Tenis" name="Sports" value="Tenis" /> Tenis
+                <input type="radio" id="Football" name="Sports" value="Football" /> Football
+
+            </fieldset>
+            <p>Attached any Certificate </p>
+            <input type="file" name="Certificate" />
+            <br>
+            <input type="submit" value="Upload" />
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <input type="submit" label="signup">
+</body>
+
+</html>
