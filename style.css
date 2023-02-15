@@ -1,0 +1,23 @@
+*{
+    
+    background-color:rgb(230, 228, 228);
+}
+h1{
+    color: rgb(0, 0, 0);
+}
+h2{
+    text-decoration: underline;
+}
+fieldset>div>span{
+    font-weight: bold;
+}
+p{
+    font-size: large;
+   color: rgb(0, 0, 0);
+}
+
+legend {
+    color: rgb(0, 0, 0);
+    font-size:larger
+}
+
